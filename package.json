@@ -8,13 +8,17 @@
     "bootstrap": "^3.3.6",
     "copy-webpack-plugin": "^0.3.3",
     "css-loader": "^0.23.1",
+    "elm-stdio": "^1.0.1",
     "elm-webpack-loader": "^1.1.1",
     "extract-text-webpack-plugin": "^0.9.1",
     "file-loader": "^0.8.5",
+    "jsdom": "^7.2.2",
     "jsx-loader": "^0.13.2",
-    "react-stdio": "^2.0.6",
+    "min-document": "hassox/min-document",
     "style-loader": "^0.13.0",
     "url-loader": "^0.5.7",
+    "vdom-to-html": "^2.2.0",
+    "virtual-dom": "^2.1.1",
     "webpack": "^1.12.9"
   },
   "scripts": {

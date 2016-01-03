@@ -16,7 +16,7 @@ defmodule PhoenixElm.Router do
   scope "/", PhoenixElm do
     pipe_through :browser # Use the default browser stack
 
-    get "/", PageController, :index
+    forward "/", PageController, :index
   end
 
   # Other scopes may use custom stacks.

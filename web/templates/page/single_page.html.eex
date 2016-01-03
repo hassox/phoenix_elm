@@ -1,0 +1,2 @@
+<%= raw @html %>
+<script>window.APP_DATA = <%= raw Poison.encode!(@data) %>;</script>

@@ -11,6 +11,7 @@ defmodule PhoenixElm do
       supervisor(PhoenixElm.Endpoint, []),
       # Start the Ecto repository
       supervisor(PhoenixElm.Repo, []),
+      supervisor(PhoenixElm.ElmIo, []),
       # Here you could define other workers and supervisors as children
       # worker(PhoenixElm.Worker, [arg1, arg2, arg3]),
     ]

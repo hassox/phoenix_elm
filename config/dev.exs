@@ -14,6 +14,7 @@ config :phoenix_elm, PhoenixElm.Endpoint,
   check_origin: false,
   watchers: [
     {"node", ["node_modules/webpack/bin/webpack.js", "--watch-stdin", "--progress", "--colors"]},
+    {"node", ["node_modules/webpack/bin/webpack.js", "--watch-stdin", "--progress", "--colors", "--config", "webpack.server.config.js"]},
   ]
 
 # Watch static and templates for browser reloading.
